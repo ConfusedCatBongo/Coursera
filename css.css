@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	font-family: Comic Sans MS;
+	padding: 0;
+	margin: 0;
+}
+header{
+	text-align: center;
+	font-size: 2em;
+}
+section {
+	background-color: darkgrey;
+	border: solid black 2px;
+	display: inline-block;
+	margin: 10px;
+}
+section h1{
+	float: right;
+	border-spacing: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+section p{
+	padding: 0px 10px 10px 10px;
+	clear: both;
+}
+#soup{
+	background-color: blue;
+	color: yellow;
+	text-align: right;
+}
+#beef{
+	background-color: orange;
+	color: black;
+}
+#chicken{
+	background-color: lightgreen;
+	color: blue;
+}
+@media(min-width: 768px){
+	section{
+		width: 45%;
+	}
+	}
+@media(min-width: 992px){
+	section{
+		width: 30%;
+	}
+}
